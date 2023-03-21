@@ -1,0 +1,119 @@
+body{
+    background-image: url('./images/bg-desktop.svg');
+    background-color:  hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 2rem;
+    color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    display: flex;
+}
+.component{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+.Huddle-logo{
+    margin: 2rem;
+    width: 200px;
+}
+.info{
+    display: flex;
+}
+.site{
+    height: 90%;
+}
+.title{
+    
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.huddle-text{
+    max-width: 480px;
+    line-height: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+.content{
+margin-left: 2rem;
+}
+.content button{
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(257, 40%, 49%);
+    font-size: 1rem;
+    padding: 1rem 3.6rem;
+    border-radius: 1.6rem;
+    transition: all ease 0.4s;
+}
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+.Huddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   margin: 2rem 0 0 0;
+}
+.logo{
+    display: flex;
+    width: 90px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+.twitter{
+    width: 30px;
+    height: 30px;
+    margin: 0 0.3rem;
+}
+.facebook{
+    width: 30px;
+    height: 30px;
+}
+.instagram{
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width:376px){
+    body{
+        background-image: url('./images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        display: flex;
+      
+        height: 100vh;
+    }
+    .Huddle-logo{
+        width:8rem;
+    }
+    .site{
+        width: 80%;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .component{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .content{
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+}
+   
