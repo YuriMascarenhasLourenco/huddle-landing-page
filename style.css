@@ -19,7 +19,7 @@ main{
     width: 100vw;
 }
 .Huddle-logo{
-    margin: 2rem;
+    margin: 2rem 0;
     width: 200px;
 }
 .info{
@@ -92,9 +92,10 @@ button:hover{
     }
     .Huddle-logo{
         width:8rem;
+        margin: 2rem 0;
     }
     .site{
-        width: 80%;
+        width: 90%;
     }
     .title{
         font-size: 2rem;
@@ -103,6 +104,9 @@ button:hover{
         display: flex;
         flex-direction: column;
         
+    }
+    .huddle-text{
+        max-width: 300px;
     }
     .content{
         margin:0;
@@ -114,6 +118,7 @@ button:hover{
     .info{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
    
