@@ -25,9 +25,6 @@ main{
 .info{
     display: flex;
 }
-.site{
-    height: 90%;
-}
 .title{
     
     font-size: 2.5rem;
@@ -40,7 +37,7 @@ main{
 
 }
 .content{
-margin-left: 2rem;
+  margin-left: 2rem;
 }
 .content button{
     margin-top: 1rem;
@@ -82,12 +79,13 @@ button:hover{
     width: 30px;
     height: 30px;
 }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 @media screen and (max-width:376px){
     body{
         background-image: url('./images/bg-mobile.svg');
         background-repeat: no-repeat;
         display: flex;
-      
         height: 100vh;
     }
     .Huddle-logo{
@@ -108,6 +106,10 @@ button:hover{
     .huddle-text{
         max-width: 300px;
     }
+    .logo{
+        position: absolute;
+        bottom: 0;
+    }
     .content{
         margin:0;
         display: flex;
@@ -119,6 +121,11 @@ button:hover{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    footer{
+        height: 50px;
+        display: flex;
+        flex-direction: column;
     }
 }
    
